@@ -1,0 +1,65 @@
+{
+	"name": "primeplaced-withdrawal-button",
+	"version": "1.0.0",
+	"private": true,
+	"description": "EU right of withdrawal for WooCommerce: withdrawal button, form, request number, durable-medium confirmation, request panel and refunds.",
+	"author": "Dobrzepostawieni <contact@dobrzepostawieni.pl>",
+	"license": "GPL-3.0-or-later",
+	"engines": {
+		"node": ">=20.0.0",
+		"npm": ">=10.0.0"
+	},
+	"devDependencies": {
+		"@axe-core/playwright": "4.12.1",
+		"@playwright/test": "1.61.1",
+		"@types/jest": "29.5.14",
+		"@types/node": "25.9.5",
+		"@wordpress/eslint-plugin": "13.10.4",
+		"@wordpress/prettier-config": "4.53.0",
+		"@wordpress/scripts": "31.8.0",
+		"@wordpress/stylelint-config": "23.42.0",
+		"eslint-import-resolver-typescript": "4.4.5",
+		"prettier": "3.9.6",
+		"stylelint": "16.26.1",
+		"typescript": "5.9.3"
+	},
+	"scripts": {
+		"start": "wp-scripts start",
+		"build": "wp-scripts build",
+		"typecheck": "tsc --project tsconfig.json --noEmit",
+		"lint:js": "wp-scripts lint-js ./assets/src"
+	},
+	"browserslist": [
+		"extends @wordpress/browserslist-config"
+	],
+	"eslintConfig": {
+		"extends": [
+			"plugin:@wordpress/eslint-plugin/recommended"
+		],
+		"rules": {
+			"prettier/prettier": "off",
+			"jsdoc/require-param-type": "off",
+			"jsdoc/require-returns-type": "off",
+			"jsdoc/require-param": "off",
+			"jsdoc/require-returns": "off"
+		},
+		"settings": {
+			"import/resolver": {
+				"typescript": {
+					"alwaysTryTypes": true,
+					"project": "./tsconfig.json"
+				}
+			}
+		},
+		"env": {
+			"browser": true
+		}
+	},
+	"stylelint": {
+		"extends": [
+			"@wordpress/stylelint-config",
+			"@wordpress/stylelint-config/scss"
+		]
+	},
+	"prettier": "@wordpress/prettier-config"
+}

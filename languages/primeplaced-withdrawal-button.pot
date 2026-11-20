@@ -1,0 +1,2575 @@
+# Copyright (C) 2026 Dobrzepostawieni
+# This file is distributed under the GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PrimePlaced - Withdrawal Button & Refunds for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/primeplaced-withdrawal-button\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-20T17:55:19+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: primeplaced-withdrawal-button\n"
+
+#. Plugin Name of the plugin
+#: primeplaced-withdrawal-button.php
+msgid "PrimePlaced - Withdrawal Button & Refunds for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: primeplaced-withdrawal-button.php
+msgid "https://dobrzepostawieni.pl/withdrawal-button/"
+msgstr ""
+
+#. Description of the plugin
+#: primeplaced-withdrawal-button.php
+msgid "Withdrawal button and returns for WooCommerce: EU right of withdrawal form, confirmation email with PDF, returns panel and refunds."
+msgstr ""
+
+#. Author of the plugin
+#: primeplaced-withdrawal-button.php
+msgid "Dobrzepostawieni"
+msgstr ""
+
+#. Author URI of the plugin
+#: primeplaced-withdrawal-button.php
+msgid "https://dobrzepostawieni.pl"
+msgstr ""
+
+#: Backend/AdminPage.php:74
+#: Backend/AdminPage.php:208
+#: Backend/Settings/ReturnsSettingsPage.php:90
+msgid "Settings"
+msgstr ""
+
+#. translators: URL of the plugin documentation in the user's language.
+#: Backend/AdminPage.php:94
+msgid "https://dobrzepostawieni.pl/withdrawal-button/documentation"
+msgstr ""
+
+#. translators: URL of the plugin documentation in the user's language.
+#: Backend/AdminPage.php:94
+msgid "Documentation"
+msgstr ""
+
+#. translators: URL of the plugin support page in the user's language.
+#: Backend/AdminPage.php:96
+msgid "https://dobrzepostawieni.pl/withdrawal-button/support"
+msgstr ""
+
+#. translators: URL of the plugin support page in the user's language.
+#: Backend/AdminPage.php:96
+msgid "Support"
+msgstr ""
+
+#: Backend/AdminPage.php:113
+#: Backend/AdminPage.php:114
+#: Backend/AdminPage.php:129
+#: Backend/AdminPage.php:207
+#: Backend/Settings/ReturnsSettingsPage.php:38
+#: Frontend/MyAccount.php:91
+#: Frontend/MyAccount.php:105
+msgid "Returns"
+msgstr ""
+
+#. translators: %s: search query.
+#: Backend/AdminPage.php:213
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: Backend/AdminPage.php:222
+msgid "Search requests"
+msgstr ""
+
+#: Backend/AdminPage.php:272
+#: Backend/RequestScreen.php:499
+#: Backend/RequestScreen.php:587
+msgid "You are not allowed to manage withdrawal requests."
+msgstr ""
+
+#: Backend/BrandBanner.php:70
+msgid "Free"
+msgstr ""
+
+#: Backend/BrandBanner.php:76
+msgid "Withdrawals and returns, compliant with EU law"
+msgstr ""
+
+#: Backend/DashboardWidget.php:47
+msgid "Withdrawals and returns"
+msgstr ""
+
+#. translators: %d: number of new requests.
+#: Backend/DashboardWidget.php:64
+#, php-format
+msgid "%d new request"
+msgid_plural "%d new requests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Backend/DashboardWidget.php:68
+msgid "No refunds close to the deadline."
+msgstr ""
+
+#: Backend/DashboardWidget.php:72
+msgid "Refunds close to the 14-day deadline:"
+msgstr ""
+
+#: Backend/Lifecycle.php:48
+msgid "Withdrawal from contract"
+msgstr ""
+
+#: Backend/Lifecycle.php:49
+msgctxt "page slug"
+msgid "withdrawal-from-contract"
+msgstr ""
+
+#: Backend/Lifecycle.php:54
+msgid "Return status"
+msgstr ""
+
+#: Backend/Lifecycle.php:55
+msgctxt "page slug"
+msgid "return-status"
+msgstr ""
+
+#. translators: %s: request number.
+#: Backend/OrderBox.php:83
+#, php-format
+msgid "See request %s"
+msgstr ""
+
+#: Backend/OrderBox.php:103
+msgid "Returns (PrimePlaced)"
+msgstr ""
+
+#: Backend/OrderBox.php:124
+msgid "Withdrawal period:"
+msgstr ""
+
+#. translators: %s: date.
+#: Backend/OrderBox.php:127
+#, php-format
+msgid "ended on %s"
+msgstr ""
+
+#. translators: 1: date, 2: days left.
+#: Backend/OrderBox.php:130
+#, php-format
+msgid "until %1$s, %2$d day left"
+msgid_plural "until %1$s, %2$d days left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Backend/OrderBox.php:134
+msgid "Not shipped yet: a request now is a cancellation before shipment."
+msgstr ""
+
+#: Backend/OrderBox.php:140
+msgid "Delivery date"
+msgstr ""
+
+#: Backend/OrderBox.php:142
+msgid "When you know it, the period counts from this date. Saved with the order."
+msgstr ""
+
+#: Backend/OrderBox.php:158
+msgid "No withdrawal requests for this order."
+msgstr ""
+
+#: Backend/OrderBox.php:192
+msgid "Create a request manually"
+msgstr ""
+
+#: Backend/OrderBox.php:193
+msgid "For a statement the customer made by email, phone or letter. Also possible after the period; such a request is flagged as late."
+msgstr ""
+
+#: Backend/OrderBox.php:203
+msgid "Customer name"
+msgstr ""
+
+#: Backend/OrderBox.php:207
+msgid "Date of the customer's statement"
+msgstr ""
+
+#: Backend/OrderBox.php:209
+msgid "The day the customer sent the email or letter, or called. The period and the refund deadline count from this day."
+msgstr ""
+
+#: Backend/OrderBox.php:213
+msgid "Bank account for the refund (optional)"
+msgstr ""
+
+#: Backend/OrderBox.php:220
+msgid "Create request"
+msgstr ""
+
+#: Backend/OrderBox.php:325
+msgid "The withdrawal request was created."
+msgstr ""
+
+#: Backend/OrderBox.php:333
+msgid "The bank account number is not valid. The request was not created."
+msgstr ""
+
+#: Backend/OrderBox.php:334
+msgid "Nothing left to withdraw in this order. The request was not created."
+msgstr ""
+
+#: Backend/OrderBox.php:335
+msgid "The request could not be created. Choose at least one product."
+msgstr ""
+
+#: Backend/ProductEligibility.php:58
+#: Backend/ProductEligibility.php:189
+#: Backend/ProductEligibility.php:242
+#: Backend/ProductEligibility.php:266
+msgid "Right of withdrawal"
+msgstr ""
+
+#: Backend/ProductEligibility.php:59
+msgid "Same as the product"
+msgstr ""
+
+#: Backend/ProductEligibility.php:68
+#: Backend/ProductEligibility.php:199
+#: Backend/ProductEligibility.php:246
+#: Backend/ProductEligibility.php:270
+msgid "Exception (Art. 38)"
+msgstr ""
+
+#: Backend/ProductEligibility.php:105
+#: Backend/Settings/ReturnsSettingsPage.php:151
+msgid "Withdrawal"
+msgstr ""
+
+#: Backend/ProductEligibility.php:124
+msgid "Excluded"
+msgstr ""
+
+#: Backend/ProductEligibility.php:126
+msgid "With a note"
+msgstr ""
+
+#: Backend/ProductEligibility.php:139
+msgid "Right of withdrawal: does not apply"
+msgstr ""
+
+#: Backend/ProductEligibility.php:140
+msgid "Right of withdrawal: follow categories"
+msgstr ""
+
+#: Backend/ProductEligibility.php:193
+msgid "Default follows the product categories."
+msgstr ""
+
+#: Backend/ProductEligibility.php:207
+#: Backend/ProductEligibility.php:250
+#: Backend/ProductEligibility.php:274
+msgid "Note for the customer"
+msgstr ""
+
+#: Backend/ProductEligibility.php:326
+msgid "Follow categories"
+msgstr ""
+
+#: Backend/ProductEligibility.php:326
+msgid "Not set"
+msgstr ""
+
+#: Backend/ProductEligibility.php:327
+msgid "Applies"
+msgstr ""
+
+#: Backend/ProductEligibility.php:328
+msgid "Applies, with a note for the customer"
+msgstr ""
+
+#: Backend/ProductEligibility.php:329
+msgid "Does not apply (statutory exception)"
+msgstr ""
+
+#: Backend/RequestScreen.php:93
+#: Backend/RequestsListTable.php:66
+#: Privacy/PersonalData.php:138
+#: templates/emails/plain/request.php:31
+#: templates/emails/request.php:47
+#: templates/form/steps.php:14
+#: templates/form/summary.php:61
+#: templates/status/details.php:44
+msgid "Products"
+msgstr ""
+
+#: Backend/RequestScreen.php:94
+msgid "Statement"
+msgstr ""
+
+#: Backend/RequestScreen.php:95
+msgid "History"
+msgstr ""
+
+#: Backend/RequestScreen.php:96
+msgid "Status and actions"
+msgstr ""
+
+#: Backend/RequestScreen.php:97
+msgid "Refund"
+msgstr ""
+
+#: Backend/RequestScreen.php:98
+msgid "Customer"
+msgstr ""
+
+#: Backend/RequestScreen.php:99
+msgid "Return shipment"
+msgstr ""
+
+#: Backend/RequestScreen.php:100
+msgid "Add note"
+msgstr ""
+
+#: Backend/RequestScreen.php:112
+#: Backend/RequestScreen.php:592
+#: Integrations/RequestWorkflow.php:187
+msgid "Request not found."
+msgstr ""
+
+#. translators: %s: request number.
+#: Backend/RequestScreen.php:123
+#, php-format
+msgid "Request %s"
+msgstr ""
+
+#: Backend/RequestScreen.php:127
+msgid "Back to list"
+msgstr ""
+
+#: Backend/RequestScreen.php:130
+msgid "Cancellation before shipment: the customer withdrew before the order was shipped. Do not ship the order. Cancel it and refund the payment without waiting for a parcel."
+msgstr ""
+
+#: Backend/RequestScreen.php:133
+msgid "Integration error: a carrier or invoicing step failed, the history below says which. Use \"Retry\" next to the shipment or issue the credit note by hand."
+msgstr ""
+
+#: Backend/RequestScreen.php:136
+msgid "Action required: an email, a refund or an integration step failed, the history below says which. For a missing confirmation use \"Resend confirmation\" and check the email settings of the site."
+msgstr ""
+
+#: Backend/RequestScreen.php:138
+msgid "The shop has no return address, so the customer did not get one. Send the return address in a note to the customer and fill it in the settings."
+msgstr ""
+
+#: Backend/RequestScreen.php:162
+#: templates/pdf/confirmation.php:77
+msgid "Product"
+msgstr ""
+
+#: Backend/RequestScreen.php:162
+#: templates/pdf/confirmation.php:77
+msgid "Quantity"
+msgstr ""
+
+#: Backend/RequestScreen.php:162
+msgid "Unit price"
+msgstr ""
+
+#: Backend/RequestScreen.php:176
+msgid "Reason given by the customer:"
+msgstr ""
+
+#: Backend/RequestScreen.php:192
+msgid "Submitted:"
+msgstr ""
+
+#: Backend/RequestScreen.php:195
+msgid "Download PDF"
+msgstr ""
+
+#: Backend/RequestScreen.php:236
+msgid "Mark as in transit"
+msgstr ""
+
+#: Backend/RequestScreen.php:237
+msgid "Mark as received"
+msgstr ""
+
+#: Backend/RequestScreen.php:238
+#: Backend/RequestsListTable.php:208
+msgid "Close without a refund"
+msgstr ""
+
+#: Backend/RequestScreen.php:239
+msgid "Cancel request"
+msgstr ""
+
+#: Backend/RequestScreen.php:251
+msgid "Reject"
+msgstr ""
+
+#: Backend/RequestScreen.php:253
+msgid "Reason for the customer (required)"
+msgstr ""
+
+#: Backend/RequestScreen.php:255
+msgid "A rejection does not change the effect of a statement made on time."
+msgstr ""
+
+#: Backend/RequestScreen.php:256
+msgid "Reject request"
+msgstr ""
+
+#: Backend/RequestScreen.php:263
+msgid "Reopen"
+msgstr ""
+
+#: Backend/RequestScreen.php:267
+msgid "Resend confirmation"
+msgstr ""
+
+#: Backend/RequestScreen.php:284
+msgid "Refund due:"
+msgstr ""
+
+#: Backend/RequestScreen.php:291
+msgid "Refunded:"
+msgstr ""
+
+#. translators: %d: days left.
+#: Backend/RequestScreen.php:302
+#, php-format
+msgid "%d day left to refund."
+msgid_plural "%d days left to refund."
+msgstr[0] ""
+msgstr[1] ""
+
+#: Backend/RequestScreen.php:304
+msgid "The statutory refund deadline has passed."
+msgstr ""
+
+#: Backend/RequestScreen.php:308
+msgid "You may withhold the refund until you receive the products or proof that they were sent."
+msgstr ""
+
+#: Backend/RequestScreen.php:324
+#: templates/account/returns.php:26
+#: templates/account/returns.php:41
+msgid "Amount"
+msgstr ""
+
+#: Backend/RequestScreen.php:329
+msgid "Includes the cheapest standard delivery, because the whole order is returned (Art. 33: the customer chose a dearer delivery)."
+msgstr ""
+
+#: Backend/RequestScreen.php:331
+msgid "Includes the delivery cost, because the whole order is returned."
+msgstr ""
+
+#: Backend/RequestScreen.php:333
+msgid "Products only; the delivery cost is refunded when the whole order is returned."
+msgstr ""
+
+#: Backend/RequestScreen.php:339
+msgid "Deduction reason (required for a lower amount)"
+msgstr ""
+
+#: Backend/RequestScreen.php:342
+msgid "Return products to stock"
+msgstr ""
+
+#: Backend/RequestScreen.php:346
+msgid "The payment gateway will refund the customer automatically."
+msgstr ""
+
+#: Backend/RequestScreen.php:347
+msgid "This payment method has no automatic refunds: WooCommerce records the refund and you transfer the money yourself."
+msgstr ""
+
+#. translators: %s: error message from the payment gateway.
+#: Backend/RequestScreen.php:357
+#, php-format
+msgid "The payment gateway refused the last refund: %s"
+msgstr ""
+
+#: Backend/RequestScreen.php:360
+msgid "You can refund manually by bank transfer. Ask the customer for an account number with a note, for example: \"We could not refund the payment automatically. Please reply with the bank account number for the refund.\""
+msgstr ""
+
+#: Backend/RequestScreen.php:363
+msgid "Refund manually (record the refund only, without the gateway)"
+msgstr ""
+
+#: Backend/RequestScreen.php:365
+msgid "Refund payment"
+msgstr ""
+
+#: Backend/RequestScreen.php:404
+msgid "Order:"
+msgstr ""
+
+#: Backend/RequestScreen.php:411
+msgid "Tax ID:"
+msgstr ""
+
+#: Backend/RequestScreen.php:413
+msgid "The customer confirmed buying as a consumer or a sole trader with consumer rights."
+msgstr ""
+
+#: Backend/RequestScreen.php:418
+msgid "Refund method:"
+msgstr ""
+
+#: Backend/RequestScreen.php:431
+#: templates/form/summary.php:56
+msgid "Bank account for the refund:"
+msgstr ""
+
+#: Backend/RequestScreen.php:434
+msgid "Show (logged)"
+msgstr ""
+
+#: Backend/RequestScreen.php:439
+msgid "IP (hash):"
+msgstr ""
+
+#: Backend/RequestScreen.php:452
+msgid "The customer has not added shipping details yet."
+msgstr ""
+
+#. translators: %d: number of files.
+#: Backend/RequestScreen.php:462
+#: Privacy/PersonalData.php:147
+msgid "Proof of shipment"
+msgstr ""
+
+#: Backend/RequestScreen.php:477
+msgid "Note"
+msgstr ""
+
+#: Backend/RequestScreen.php:479
+msgid "Note type"
+msgstr ""
+
+#: Backend/RequestScreen.php:480
+msgid "Private note"
+msgstr ""
+
+#: Backend/RequestScreen.php:481
+msgid "Note to customer (sent by email)"
+msgstr ""
+
+#: Backend/RequestScreen.php:483
+msgid "Add"
+msgstr ""
+
+#: Backend/RequestScreen.php:511
+#: Backend/RequestScreen.php:542
+msgid "Unknown action."
+msgstr ""
+
+#: Backend/RequestScreen.php:604
+#: Backend/RequestScreen.php:623
+msgid "File not found."
+msgstr ""
+
+#: Backend/RequestScreen.php:608
+#: Pdf/ConfirmationPdf.php:56
+msgid "The personal data of this request was erased; the confirmation is not available any more."
+msgstr ""
+
+#: Backend/RequestScreen.php:705
+msgid "Request updated."
+msgstr ""
+
+#: Backend/RequestScreen.php:706
+msgid "Confirmation sent again."
+msgstr ""
+
+#: Backend/RequestScreen.php:707
+msgid "The email could not be sent. Check the email settings of the site."
+msgstr ""
+
+#: Backend/RequestScreen.php:708
+msgid "Refund created."
+msgstr ""
+
+#: Backend/RequestScreen.php:729
+msgid "Withdrawal statement submitted."
+msgstr ""
+
+#. translators: 1: previous status, 2: new status.
+#: Backend/RequestScreen.php:734
+#, php-format
+msgid "Status changed from %1$s to %2$s."
+msgstr ""
+
+#. translators: %s: email ID.
+#: Backend/RequestScreen.php:743
+#, php-format
+msgid "Email sent: %s."
+msgstr ""
+
+#. translators: %s: email ID.
+#: Backend/RequestScreen.php:746
+#, php-format
+msgid "Email failed: %s."
+msgstr ""
+
+#. translators: %s: amount.
+#: Backend/RequestScreen.php:749
+#, php-format
+msgid "Refund of %s created in WooCommerce."
+msgstr ""
+
+#. translators: %s: error message.
+#: Backend/RequestScreen.php:752
+#, php-format
+msgid "Refund failed: %s"
+msgstr ""
+
+#. translators: 1: carrier, 2: tracking number.
+#: Backend/RequestScreen.php:756
+#, php-format
+msgid "The carrier scanned the return parcel: %1$s %2$s."
+msgstr ""
+
+#. translators: 1: carrier, 2: tracking number.
+#: Backend/RequestScreen.php:759
+#, php-format
+msgid "Customer added shipping details: %1$s %2$s."
+msgstr ""
+
+#: Backend/RequestScreen.php:761
+msgid "Bank account number displayed."
+msgstr ""
+
+#: Backend/RequestScreen.php:763
+msgid "Personal data erased on request."
+msgstr ""
+
+#: Backend/RequestScreen.php:766
+msgid "Request recorded by the shop."
+msgstr ""
+
+#: Backend/RequestScreen.php:767
+msgid "Request recorded by the shop after the withdrawal period (flagged as late)."
+msgstr ""
+
+#. translators: %s: email from the order.
+#: Backend/RequestScreen.php:770
+#, php-format
+msgid "The customer gave another email for the confirmation (order email: %s)."
+msgstr ""
+
+#: Backend/RequestScreen.php:802
+msgid "by the customer"
+msgstr ""
+
+#. translators: %s: user display name.
+#: Backend/RequestScreen.php:807
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: Backend/RequestScreen.php:810
+msgid "by the system"
+msgstr ""
+
+#: Backend/RequestsListTable.php:62
+#: templates/account/returns.php:22
+#: templates/account/returns.php:33
+msgid "Request"
+msgstr ""
+
+#: Backend/RequestsListTable.php:63
+#: templates/account/returns.php:24
+#: templates/account/returns.php:39
+msgid "Date"
+msgstr ""
+
+#: Backend/RequestsListTable.php:64
+#: Privacy/PersonalData.php:134
+#: templates/account/returns.php:25
+#: templates/account/returns.php:40
+msgid "Status"
+msgstr ""
+
+#: Backend/RequestsListTable.php:65
+#: Privacy/PersonalData.php:133
+#: templates/account/returns.php:23
+#: templates/account/returns.php:34
+#: templates/emails/plain/request.php:29
+#: templates/emails/request.php:34
+#: templates/form/steps.php:13
+msgid "Order"
+msgstr ""
+
+#: Backend/RequestsListTable.php:67
+#: templates/emails/plain/request.php:36
+#: templates/emails/request.php:51
+msgid "Estimated refund"
+msgstr ""
+
+#: Backend/RequestsListTable.php:68
+msgid "Refund due"
+msgstr ""
+
+#: Backend/RequestsListTable.php:127
+msgid "All"
+msgstr ""
+
+#: Backend/RequestsListTable.php:133
+#: Backend/RequestsListTable.php:186
+msgid "Action required"
+msgstr ""
+
+#: Backend/RequestsListTable.php:134
+msgid "Late"
+msgstr ""
+
+#: Backend/RequestsListTable.php:135
+msgid "Refund due within 3 days"
+msgstr ""
+
+#: Backend/RequestsListTable.php:136
+#: Backend/RequestsListTable.php:185
+msgid "Cancellation before shipment"
+msgstr ""
+
+#: Backend/RequestsListTable.php:165
+msgid "No withdrawal requests found. They appear here as soon as a customer confirms the form."
+msgstr ""
+
+#: Backend/RequestsListTable.php:207
+msgid "Change status to parcel received"
+msgstr ""
+
+#. translators: %s: human-readable time difference.
+#: Backend/RequestsListTable.php:245
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: Backend/RequestsListTable.php:312
+msgid "overdue"
+msgstr ""
+
+#. translators: %d: number of days left to refund.
+#: Backend/RequestsListTable.php:314
+#, php-format
+msgid "%d day left"
+msgid_plural "%d days left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:73
+msgid "The withdrawal button is switched off everywhere. The law requires it to be easy to find for the whole withdrawal period: keep at least one place, or add the block or the [ppwb_button] shortcode yourself."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:77
+msgid "Orders before shipment: customers of orders that are not shipped yet see only a message. The consumer may withdraw from the contract also before delivery (Directive 2011/83/EU, art. 9 sec. 3), so this setting may be seen as making withdrawal harder. This is not legal advice."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:91
+msgid "Tools"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:120
+msgid "Return labels and parcel locker codes (InPost, Sendcloud) with tracking"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:121
+msgid "Correction invoices from your invoicing plugin"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:122
+msgid "Returns report in WooCommerce Analytics and CSV export"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:123
+msgid "Automations, reply templates, webhooks and complaints"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:124
+msgid "White label, settings export and import, WP-CLI commands"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:127
+msgid "PrimePlaced - Withdrawal Button Pro"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:128
+msgid "The free version handles the whole statutory withdrawal process without limits. Pro adds integrations and tools that save time on many returns:"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:134
+msgid "One Pro plan includes everything above. You only choose the number of sites."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:135
+msgid "Buy Pro"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:152
+msgid "This plugin does not provide legal advice. Check your obligations with a lawyer."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:152
+msgid "Open the setup wizard"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:157
+#: Backend/SetupWizard.php:250
+msgid "Withdrawal period (days)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:158
+msgid "The law requires at least 14 days, counted from delivery. When the delivery date is unknown, the period counts from the change to Completed plus the days for delivery."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:169
+msgid "Count the period from"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:170
+msgid "A delivery date entered in the order always takes priority."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:172
+msgid "The change to Completed"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:173
+msgid "The payment date (shops that do not use Completed)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:180
+msgid "Extra days for delivery"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:181
+msgid "Most shops mark an order Completed when it ships, not when it arrives. A longer period is allowed, a shorter one is not."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:193
+msgid "Max days since payment"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:194
+msgid "Default 30. A paid order that does not have the status Completed closes this many days after payment, and never sooner than the period plus the days for delivery. 0 means no limit - use it only if your shop always sets the status Completed when it ships the order."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:206
+msgid "Return shipping paid by"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:207
+msgid "Cost of sending the products back to the shop (Art. 34). It does not change the refund of the delivery the customer paid for when ordering: that is refunded when the whole order is returned."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:209
+#: Backend/SetupWizard.php:245
+msgid "The customer"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:210
+#: Backend/SetupWizard.php:246
+msgid "The shop"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:217
+msgid "Cheapest standard delivery (gross)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:218
+msgid "Optional. When the whole order is returned, the delivery cost is refunded up to this amount; a dearer delivery chosen by the customer is refunded only up to it (Art. 33). Empty: the full delivery cost paid is refunded."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:226
+msgid "After the withdrawal period"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:228
+msgid "Show a message with the shop contact"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:229
+msgid "Accept the request, flagged as late"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:236
+msgid "Orders before shipment"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:237
+msgid "Orders \"Processing\" or \"On hold\". The consumer may withdraw before delivery too, so blocking the form may be seen as making withdrawal harder."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:240
+msgid "Accept the request as a cancellation before shipment (recommended)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:241
+msgid "Show only the order status and the shop contact"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:248
+msgid "Return reasons"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:249
+msgid "Let customers pick a reason from a list. Giving a reason stays optional."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:255
+msgid "Reason list"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:256
+msgid "One reason per line, optionally as code|Label. Keep codes unchanged so statistics stay comparable. Empty: the default list. \"Other\" with a comment field is always added."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:264
+msgid "Shop email for notifications"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:265
+msgid "New requests, tracking numbers and refund reminders. Empty: the site administrator email. A recipient set in WooCommerce > Settings > Emails wins."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:273
+msgid "Stock"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:274
+msgid "Return products to stock with a refund (preselected in the refund box)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:280
+msgid "Orders with a tax ID (NIP)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:281
+msgid "A sole trader buying outside their profession has consumer rights (Art. 38a), and a tax ID alone does not tell. \"Exclude\" may refuse a right the customer has. The tax ID is read from common invoice plugins (filter ppwb_order_tax_id)."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:284
+msgid "Treat like consumer orders (recommended)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:285
+msgid "Ask the customer to confirm consumer status"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:286
+msgid "Exclude from the form"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:293
+msgid "Order notes"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:294
+msgid "Key events: the statement, the refund, a rejection or a cancellation. Everything else (emails, other statuses, tracking) stays in the request history."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:296
+msgid "Key events only"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:297
+msgid "All events"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:304
+msgid "Email after a refund"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:305
+msgid "Which email the customer gets when you refund from the request. The WooCommerce email shows the whole order and the line \"Withdrawal ZW-...\" with the refund."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:307
+msgid "WooCommerce \"Refunded order\" email"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:308
+msgid "Plugin \"Payment refunded\" email"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:309
+msgid "Both"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:316
+msgid "Order status"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:317
+msgid "Change the order status to \"Withdrawal from contract\" when a request arrives."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:323
+msgid "Refund reminder (days before the deadline)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:324
+msgid "Daily email to the shop about refunds due within this many days and refunds already late. No email when there is nothing to refund."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:336
+msgid "Date format"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:337
+msgid "Used in emails, the PDF, the form and the panel, always in the shop timezone."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:339
+msgid "Automatic (Polish 24 h for a Polish site)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:340
+msgid "Polish 24 h: 9 listopada 2026, 08:51"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:341
+msgid "WordPress date and time format"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:352
+msgid "Return address and seller"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:358
+msgid "Return address: company or name"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:364
+#: Backend/SetupWizard.php:231
+msgid "Street and number"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:370
+#: Backend/SetupWizard.php:233
+msgid "Postcode"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:377
+#: Backend/SetupWizard.php:234
+msgid "City"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:383
+msgid "Country"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:385
+msgid "Same as the store"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:391
+msgid "Seller name"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:392
+msgid "Full company name for the PDF confirmation. Empty: the site name."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:399
+msgid "Tax ID (NIP)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:400
+msgid "Printed in the PDF confirmation."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:410
+#: Backend/SetupWizard.php:254
+msgid "Withdrawal button"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:416
+msgid "Show the button"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:417
+#: Backend/SetupWizard.php:258
+msgid "In the footer of every page"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:424
+#: Backend/SetupWizard.php:259
+msgid "Next to orders in My account"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:431
+#: Backend/SetupWizard.php:260
+msgid "In the \"Completed order\" email"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:438
+msgid "In the \"Processing order\" email (cancellation before shipment)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:445
+msgid "Excluded products"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:446
+msgid "Tell customers on the product page that the right of withdrawal does not apply (statutory exceptions, Art. 38). The law requires this information before the purchase."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:452
+msgid "Button label"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:453
+msgid "Empty: \"Withdraw from contract here\". The law requires an unambiguous label that says the customer withdraws from the contract; avoid \"Returns\" or \"Help\"."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:460
+#: Backend/Tools.php:103
+msgid "Withdrawal form page"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:461
+msgid "The page with the [ppwb_form] shortcode, created on activation."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:468
+msgid "Request status page"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:469
+msgid "The page with the [ppwb_status] shortcode, created on activation."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:480
+msgid "Request numbers"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:486
+#: Backend/SetupWizard.php:270
+msgid "Number format"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:487
+msgid "Placeholders: {RRRR} year, {RR} short year, {MM} month, {NNNNNN} counter (number of N = digits), {ZAMOWIENIE} order number. A new format applies to new requests only."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:494
+msgid "Counter"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:496
+msgid "Yearly (restarts on 1 January)"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:497
+msgid "Continuous"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:504
+msgid "Start counter at"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:505
+msgid "Used when a new counter starts, for example 1000."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:520
+msgid "Data"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:525
+msgid "Delete data on uninstall"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:526
+msgid "Remove all requests, settings and the form page when the plugin is deleted. Deactivation never removes data."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:543
+msgid "withdrawal button"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:544
+msgid "information about the right of withdrawal"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:545
+msgid "withdrawal form"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:546
+msgid "request status lookup"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:548
+msgid "Also available as the \"Withdrawal button\" block and as shortcodes:"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:554
+#: templates/form/success.php:21
+msgid "Copy"
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:555
+#: templates/form/success.php:22
+msgid "Copied"
+msgstr ""
+
+#. translators: %s: request number.
+#: Backend/Settings/ReturnsSettingsPage.php:575
+#, php-format
+msgid "Next number: %s (saved changes apply to new requests)."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:587
+msgid "The daily task is not scheduled yet; it is restored on the next admin page load."
+msgstr ""
+
+#. translators: %s: date and time.
+#: Backend/Settings/ReturnsSettingsPage.php:589
+#, php-format
+msgid "Next reminder: %s."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:601
+msgid "Customers will not get a return address: fill in the fields below or the store address in WooCommerce > Settings > General."
+msgstr ""
+
+#. translators: %s: return address.
+#: Backend/Settings/ReturnsSettingsPage.php:606
+#, php-format
+msgid "Customers get this return address: %s. Empty fields: the store address from WooCommerce > Settings > General."
+msgstr ""
+
+#: Backend/Settings/ReturnsSettingsPage.php:610
+msgid "The tax ID (NIP) is empty, so the PDF confirmation shows no tax ID."
+msgstr ""
+
+#: Backend/SetupWizard.php:66
+#: Backend/SetupWizard.php:75
+#: Backend/SetupWizard.php:205
+msgid "Returns setup"
+msgstr ""
+
+#: Backend/SetupWizard.php:118
+msgid "Set up the return address, the withdrawal period and the button placement."
+msgstr ""
+
+#: Backend/SetupWizard.php:120
+msgid "Start setup"
+msgstr ""
+
+#: Backend/SetupWizard.php:122
+msgid "Skip"
+msgstr ""
+
+#: Backend/SetupWizard.php:143
+msgid "Customers will not get a return address. Fill in the return address."
+msgstr ""
+
+#: Backend/SetupWizard.php:145
+msgid "Open settings"
+msgstr ""
+
+#: Backend/SetupWizard.php:212
+msgid "Test email sent. Check the administrator mailbox."
+msgstr ""
+
+#: Backend/SetupWizard.php:212
+msgid "The test email could not be sent. Configure email delivery (for example an SMTP plugin)."
+msgstr ""
+
+#: Backend/SetupWizard.php:212
+msgid "Open diagnostics"
+msgstr ""
+
+#: Backend/SetupWizard.php:215
+msgid "Five things and you are ready. You can change everything later in WooCommerce > Settings > Returns."
+msgstr ""
+
+#: Backend/SetupWizard.php:218
+msgid "The site timezone is UTC. Statement times in emails and the PDF use the shop timezone, so set your city (for example Warsaw) in Settings > General."
+msgstr ""
+
+#: Backend/SetupWizard.php:219
+msgid "Open Settings > General"
+msgstr ""
+
+#: Backend/SetupWizard.php:227
+msgid "Return address"
+msgstr ""
+
+#: Backend/SetupWizard.php:230
+msgid "Company or name"
+msgstr ""
+
+#: Backend/SetupWizard.php:236
+msgid "Leave empty to use the store address from WooCommerce settings."
+msgstr ""
+
+#: Backend/SetupWizard.php:238
+msgid "The store address in WooCommerce > Settings > General is empty too. Customers would not get a return address."
+msgstr ""
+
+#: Backend/SetupWizard.php:243
+msgid "Who pays for return shipping"
+msgstr ""
+
+#: Backend/SetupWizard.php:266
+msgid "The law requires the button to be easy to find for the whole withdrawal period. Keep the footer button on unless your theme shows it elsewhere."
+msgstr ""
+
+#: Backend/SetupWizard.php:275
+msgid "Save and finish"
+msgstr ""
+
+#: Backend/SetupWizard.php:276
+msgid "Save and send a test email"
+msgstr ""
+
+#: Backend/SetupWizard.php:291
+msgid "You are not allowed to change these settings."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: Backend/SetupWizard.php:321
+#, php-format
+msgid "%s: test email"
+msgstr ""
+
+#: Backend/SetupWizard.php:322
+msgid "Email delivery works. Withdrawal confirmations will be sent to customers in the same way."
+msgstr ""
+
+#: Backend/StatusView.php:25
+msgid "New"
+msgstr ""
+
+#: Backend/StatusView.php:26
+msgid "In transit"
+msgstr ""
+
+#: Backend/StatusView.php:27
+msgid "Parcel received"
+msgstr ""
+
+#: Backend/StatusView.php:28
+msgid "Completed, refunded"
+msgstr ""
+
+#: Backend/StatusView.php:29
+msgid "Completed"
+msgstr ""
+
+#: Backend/StatusView.php:30
+msgid "Rejected"
+msgstr ""
+
+#: Backend/StatusView.php:31
+msgid "Cancelled"
+msgstr ""
+
+#: Backend/Tools.php:58
+msgid "Diagnostics"
+msgstr ""
+
+#: Backend/Tools.php:59
+msgid "Copy this report when you contact support. It contains no customer data."
+msgstr ""
+
+#: Backend/Tools.php:74
+msgid "Diagnostics report"
+msgstr ""
+
+#: Backend/Tools.php:97
+msgid "Plugin version"
+msgstr ""
+
+#: Backend/Tools.php:101
+msgid "Order storage"
+msgstr ""
+
+#: Backend/Tools.php:101
+msgid "Posts (legacy)"
+msgstr ""
+
+#: Backend/Tools.php:102
+msgid "Database schema"
+msgstr ""
+
+#: Backend/Tools.php:104
+msgid "Return status page"
+msgstr ""
+
+#: Backend/Tools.php:105
+msgid "Footer button"
+msgstr ""
+
+#: Backend/Tools.php:105
+msgid "On"
+msgstr ""
+
+#: Backend/Tools.php:105
+msgid "Off"
+msgstr ""
+
+#: Backend/Tools.php:106
+msgid "Private file storage"
+msgstr ""
+
+#: Backend/Tools.php:106
+msgid "Writable"
+msgstr ""
+
+#: Backend/Tools.php:106
+msgid "Not writable"
+msgstr ""
+
+#: Backend/Tools.php:106
+msgid "Created on first use"
+msgstr ""
+
+#. translators: %d: number of failed emails.
+#: Backend/Tools.php:108
+msgid "Failed emails (30 days)"
+msgstr ""
+
+#: Backend/Tools.php:109
+msgid "Daily refund reminder"
+msgstr ""
+
+#: Backend/Tools.php:109
+msgid "Scheduled"
+msgstr ""
+
+#: Backend/Tools.php:109
+msgid "Not scheduled"
+msgstr ""
+
+#: Backend/Tools.php:110
+msgid "Shop timezone"
+msgstr ""
+
+#: Backend/Tools.php:111
+msgid "Licensing (Freemius)"
+msgstr ""
+
+#: Backend/Tools.php:111
+msgid "Configured"
+msgstr ""
+
+#: Backend/Tools.php:111
+msgid "Not configured (Free only)"
+msgstr ""
+
+#: Backend/Tools.php:112
+msgid "Active theme"
+msgstr ""
+
+#: Backend/Tools.php:150
+msgid "Missing or without its shortcode. Deactivate and activate the plugin to recreate it."
+msgstr ""
+
+#. translators: %d: withdrawal period in days.
+#: Blocks/Shortcodes.php:94
+#, php-format
+msgid "You can withdraw from the contract within %d days of delivery without giving a reason. Use the form below; you will get a confirmation right away."
+msgstr ""
+
+#: Data/RequestRepository.php:410
+msgid "[deleted]"
+msgstr ""
+
+#: Data/RequestRepository.php:412
+msgid "[erased on request; see the stored SHA-256 hash]"
+msgstr ""
+
+#: Data/Settings.php:138
+msgid "Withdraw from contract here"
+msgstr ""
+
+#: Data/Settings.php:237
+msgid "the address we will send you in a separate message"
+msgstr ""
+
+#: Data/Settings.php:316
+#: Frontend/StatusPage.php:245
+#: templates/form/products.php:111
+#: templates/status/details.php:17
+msgid "Other"
+msgstr ""
+
+#: Data/Settings.php:329
+msgid "Too small"
+msgstr ""
+
+#: Data/Settings.php:330
+msgid "Too large"
+msgstr ""
+
+#: Data/Settings.php:331
+msgid "Different from the description or photos"
+msgstr ""
+
+#: Data/Settings.php:332
+msgid "Damaged or faulty"
+msgstr ""
+
+#: Data/Settings.php:333
+msgid "Wrong product delivered"
+msgstr ""
+
+#: Data/Settings.php:334
+msgid "Changed my mind"
+msgstr ""
+
+#: Data/Settings.php:345
+msgid "We cover the cost of sending the products back."
+msgstr ""
+
+#: Data/Settings.php:346
+msgid "You cover the cost of sending the products back."
+msgstr ""
+
+#: Emails/Mailer.php:163
+msgid "Withdrawal confirmation"
+msgstr ""
+
+#: Emails/Mailer.php:164
+msgid "Sent to the customer right after the withdrawal statement, with the PDF confirmation."
+msgstr ""
+
+#: Emails/Mailer.php:165
+msgid "[{request_number}] We confirm receipt of your statement of withdrawal from the contract"
+msgstr ""
+
+#: Emails/Mailer.php:166
+msgid "We have received your statement"
+msgstr ""
+
+#: Emails/Mailer.php:167
+msgid ""
+"Hi {customer_first_name},\n"
+"\n"
+"we confirm that on {submitted_at} we received your statement of withdrawal from the contract.\n"
+"\n"
+"What next: send the products back within 14 days to {return_address}. {return_cost} We will refund the payment by {refund_due} at the latest, {refund_method}. Estimated refund: {refund_amount}.\n"
+"\n"
+"The PDF confirmation is attached."
+msgstr ""
+
+#: Emails/Mailer.php:168
+msgid ""
+"Hi {customer_first_name},\n"
+"\n"
+"we confirm that on {submitted_at} we received your statement of withdrawal from the contract. We have not shipped the order yet, so we will cancel it and refund the payment by {refund_due} at the latest, {refund_method}. Estimated refund: {refund_amount}.\n"
+"\n"
+"If the parcel has already left, refuse to accept it or send it back to {return_address}.\n"
+"\n"
+"The PDF confirmation is attached."
+msgstr ""
+
+#: Emails/Mailer.php:174
+msgid "Return parcel received"
+msgstr ""
+
+#: Emails/Mailer.php:175
+msgid "Sent when the returned products arrive at the shop."
+msgstr ""
+
+#: Emails/Mailer.php:176
+msgid "[{request_number}] Your parcel has reached us"
+msgstr ""
+
+#: Emails/Mailer.php:177
+msgid "Your parcel has reached us"
+msgstr ""
+
+#: Emails/Mailer.php:178
+msgid ""
+"Hi {customer_first_name},\n"
+"\n"
+"your parcel has reached us. We will refund the payment by {refund_due} at the latest."
+msgstr ""
+
+#: Emails/Mailer.php:182
+msgid "Withdrawal refunded"
+msgstr ""
+
+#: Emails/Mailer.php:183
+msgid "Sent when the payment is refunded, with the amount and any deduction reason."
+msgstr ""
+
+#: Emails/Mailer.php:184
+msgid "[{request_number}] We have refunded your payment"
+msgstr ""
+
+#: Emails/Mailer.php:185
+msgid "We have refunded your payment"
+msgstr ""
+
+#: Emails/Mailer.php:186
+msgid ""
+"Hi {customer_first_name},\n"
+"\n"
+"we have refunded the payment for your withdrawal request, {refund_method}."
+msgstr ""
+
+#: Emails/Mailer.php:190
+msgid "Withdrawal rejected"
+msgstr ""
+
+#: Emails/Mailer.php:191
+msgid "Sent when the shop rejects the request, with the reason."
+msgstr ""
+
+#: Emails/Mailer.php:192
+msgid "[{request_number}] Information about your request"
+msgstr ""
+
+#: Emails/Mailer.php:193
+msgid "Information about your request"
+msgstr ""
+
+#: Emails/Mailer.php:194
+msgid ""
+"Hi {customer_first_name},\n"
+"\n"
+"we could not accept your withdrawal request. The reason is below. If you have questions, reply to this email."
+msgstr ""
+
+#: Emails/Mailer.php:198
+msgid "Withdrawal cancelled"
+msgstr ""
+
+#: Emails/Mailer.php:199
+msgid "Sent when the request is withdrawn by the customer or cancelled by the shop."
+msgstr ""
+
+#: Emails/Mailer.php:200
+msgid "[{request_number}] Your request has been cancelled"
+msgstr ""
+
+#: Emails/Mailer.php:201
+msgid "Your request has been cancelled"
+msgstr ""
+
+#: Emails/Mailer.php:202
+msgid ""
+"Hi {customer_first_name},\n"
+"\n"
+"your withdrawal request has been cancelled."
+msgstr ""
+
+#: Emails/Mailer.php:206
+msgid "Message about a return"
+msgstr ""
+
+#: Emails/Mailer.php:207
+msgid "Sent when the shop adds a note to the customer."
+msgstr ""
+
+#: Emails/Mailer.php:208
+msgid "[{request_number}] A message about your return"
+msgstr ""
+
+#: Emails/Mailer.php:209
+msgid "A message about your return"
+msgstr ""
+
+#: Emails/Mailer.php:210
+msgid "Hi {customer_first_name},"
+msgstr ""
+
+#: Emails/Mailer.php:214
+#: Emails/Mailer.php:217
+msgid "New withdrawal request"
+msgstr ""
+
+#: Emails/Mailer.php:215
+msgid "Sent to the shop when a customer withdraws from a contract."
+msgstr ""
+
+#: Emails/Mailer.php:216
+msgid "[{request_number}] New withdrawal from contract, order {order_number}"
+msgstr ""
+
+#: Emails/Mailer.php:218
+msgid "{customer_name} has withdrawn from the contract for order {order_number}. Refund the payment by {refund_due} at the latest."
+msgstr ""
+
+#: Emails/Mailer.php:219
+msgid "{customer_name} has cancelled order {order_number} before shipment. Do not ship the order. Cancel it and refund the payment by {refund_due} at the latest."
+msgstr ""
+
+#: Emails/Mailer.php:225
+msgid "Return tracking number added"
+msgstr ""
+
+#: Emails/Mailer.php:226
+msgid "Sent to the shop when a customer adds a tracking number or proof of shipment."
+msgstr ""
+
+#: Emails/Mailer.php:227
+msgid "[{request_number}] The customer has sent the parcel"
+msgstr ""
+
+#: Emails/Mailer.php:228
+msgid "The customer has sent the parcel"
+msgstr ""
+
+#: Emails/Mailer.php:229
+msgid "{customer_name} has added shipping details for the return."
+msgstr ""
+
+#: Emails/RefundReminderEmail.php:32
+msgid "Refund deadline reminder"
+msgstr ""
+
+#: Emails/RefundReminderEmail.php:33
+msgid "Daily summary of withdrawal requests whose refund deadline is close or has passed."
+msgstr ""
+
+#: Emails/RefundReminderEmail.php:53
+msgid "Refunds due soon: {count} withdrawal requests"
+msgstr ""
+
+#: Emails/RefundReminderEmail.php:62
+msgid "Refunds due soon"
+msgstr ""
+
+#: Emails/RefundReminderEmail.php:114
+#: Emails/RequestEmail.php:253
+msgid "Recipient(s)"
+msgstr ""
+
+#: Emails/RequestEmail.php:242
+msgid "Enable/Disable"
+msgstr ""
+
+#: Emails/RequestEmail.php:244
+msgid "This email is always sent: it is the confirmation on a durable medium required by law. You can change the subject, heading and additional content; the statement text, its date and time and the request number are always included."
+msgstr ""
+
+#. translators: %s: admin email.
+#: Emails/RequestEmail.php:256
+#, php-format
+msgid "Enter recipients (comma separated). Defaults to %s."
+msgstr ""
+
+#. translators: 1: plugin name, 2: module class name.
+#: Engine/Plugin.php:127
+#, php-format
+msgid "%1$s: module %2$s failed to start. Check the server error log."
+msgstr ""
+
+#. translators: %d: withdrawal period in days.
+#: Frontend/MyAccount.php:201
+#, php-format
+msgid "You have %d days to withdraw from the contract without giving a reason."
+msgstr ""
+
+#: Frontend/ProductExclusions.php:108
+msgid "The right of withdrawal does not apply to this product."
+msgstr ""
+
+#. translators: %s: statutory exception or the shop's note.
+#: Frontend/ProductExclusions.php:110
+#, php-format
+msgid "The right of withdrawal does not apply to this product: %s."
+msgstr ""
+
+#: Frontend/StatusPage.php:125
+msgid "This link is not valid. Enter the request number and email."
+msgstr ""
+
+#: Frontend/StatusPage.php:146
+#: Frontend/StatusPage.php:227
+#: Frontend/WithdrawalForm.php:193
+#: Frontend/WithdrawalForm.php:520
+msgid "The form has expired. Please start again."
+msgstr ""
+
+#: Frontend/StatusPage.php:200
+#: Frontend/WithdrawalForm.php:248
+msgid "Too many attempts. Please try again in a few minutes."
+msgstr ""
+
+#: Frontend/StatusPage.php:209
+msgid "We could not find a request for these details. Check the number and the email address."
+msgstr ""
+
+#: Frontend/StatusPage.php:235
+msgid "Tick the box to confirm that you want to withdraw the request."
+msgstr ""
+
+#: Frontend/StatusPage.php:237
+msgid "Withdrawn by the customer."
+msgstr ""
+
+#: Frontend/StatusPage.php:250
+msgid "Enter a tracking number or attach a proof of shipment."
+msgstr ""
+
+#: Frontend/StatusPage.php:274
+msgid "Something went wrong. Please try again or contact the shop."
+msgstr ""
+
+#: Frontend/StatusPage.php:294
+msgid "The file is too large (maximum 5 MB)."
+msgstr ""
+
+#: Frontend/StatusPage.php:304
+msgid "Only JPG, PNG or PDF files are accepted."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:179
+msgid "This link is not valid any more. Enter the order number and email."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:257
+msgid "We could not find an order for these details. Check the number and the email address."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:322
+msgid "Choose at least one product."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:326
+#: Frontend/WithdrawalForm.php:387
+msgid "Confirm that you bought as a consumer or as a sole trader with consumer rights."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:331
+#: Frontend/WithdrawalForm.php:393
+msgid "Enter a valid bank account number (IBAN) for the refund."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:377
+msgid "Enter your full name."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:382
+msgid "Enter a valid email address for the confirmation."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:413
+msgid "Your statement is being saved"
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:414
+msgid "We received the form already. Do not send it again: the confirmation with the request number will reach your email in a moment."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:436
+msgid "We could not save your statement. Please try again."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:485
+#: Integrations/RefundService.php:364
+msgid "by bank transfer to the account you gave"
+msgstr ""
+
+#. translators: %s: payment method name.
+#: Frontend/WithdrawalForm.php:487
+#: Integrations/RefundService.php:370
+#, php-format
+msgid "to the account you paid from (%s)"
+msgstr ""
+
+#. translators: %s: order status.
+#: Frontend/WithdrawalForm.php:547
+#, php-format
+msgid "The order status is \"%s\": we have not shipped it yet. You can cancel it now and we will refund the payment without waiting for a parcel, or withdraw from the contract after you receive it."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:561
+msgid "Withdrawal is not available for this order"
+msgstr ""
+
+#. translators: 1: deadline date, 2: shop email.
+#: Frontend/WithdrawalForm.php:626
+#, php-format
+msgid "The withdrawal period for this order ended on %1$s. If you think this is a mistake, write to us: %2$s"
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:630
+msgid "All products from this order are already covered by earlier withdrawal requests or refunds."
+msgstr ""
+
+#: Frontend/WithdrawalForm.php:631
+msgid "The products in this order are excluded from the right of withdrawal. If you have questions, contact us."
+msgstr ""
+
+#. translators: %s: shop email.
+#: Frontend/WithdrawalForm.php:634
+#, php-format
+msgid "This order was placed as a business purchase (with a tax ID), so the consumer right of withdrawal does not apply. If you bought as a sole trader with consumer rights, write to us: %s"
+msgstr ""
+
+#. translators: 1: order status, 2: shop email.
+#: Frontend/WithdrawalForm.php:639
+#, php-format
+msgid "You cannot withdraw from the contract here yet, because the order status is \"%1$s\". You can do it after you receive the parcel. To cancel the order before shipment, write to us: %2$s"
+msgstr ""
+
+#. translators: 1: order status, 2: shop email.
+#: Frontend/WithdrawalForm.php:645
+#, php-format
+msgid "You cannot withdraw from the contract now, because the order status is \"%1$s\". If you have questions, write to us: %2$s"
+msgstr ""
+
+#: Integrations/Exclusions.php:35
+msgid "made to the consumer's specification or clearly personalised"
+msgstr ""
+
+#: Integrations/Exclusions.php:36
+msgid "liable to deteriorate or expire rapidly"
+msgstr ""
+
+#: Integrations/Exclusions.php:37
+msgid "sealed goods unsealed after delivery, not suitable for return for health or hygiene reasons"
+msgstr ""
+
+#: Integrations/Exclusions.php:38
+msgid "inseparably mixed with other items after delivery"
+msgstr ""
+
+#: Integrations/Exclusions.php:39
+msgid "sealed audio, video or software unsealed after delivery"
+msgstr ""
+
+#: Integrations/Exclusions.php:40
+msgid "newspaper, periodical or magazine"
+msgstr ""
+
+#: Integrations/Exclusions.php:41
+msgid "digital content supplied with the consumer's consent before the withdrawal period ended"
+msgstr ""
+
+#: Integrations/Exclusions.php:42
+msgid "other statutory exception"
+msgstr ""
+
+#: Integrations/OrderIntegration.php:55
+#: Integrations/OrderIntegration.php:74
+msgctxt "Order status"
+msgid "Withdrawal from contract"
+msgstr ""
+
+#. translators: %s: number of orders.
+#: Integrations/OrderIntegration.php:61
+#, php-format
+msgid "Withdrawal from contract <span class=\"count\">(%s)</span>"
+msgid_plural "Withdrawal from contract <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Integrations/OrderIntegration.php:123
+#: templates/emails/request.php:28
+msgid "Withdrawal request"
+msgstr ""
+
+#: Integrations/RefundService.php:214
+msgid "This request cannot be refunded in its current status."
+msgstr ""
+
+#: Integrations/RefundService.php:223
+msgid "The refund amount must be positive and cannot exceed the planned amount or what is left to refund on the order."
+msgstr ""
+
+#: Integrations/RefundService.php:228
+msgid "A lower amount needs a reason (for example reduced value of the goods)."
+msgstr ""
+
+#. translators: 1: request number, 2: optional deduction reason.
+#: Integrations/RefundService.php:258
+#, php-format
+msgid "Withdrawal %1$s %2$s"
+msgstr ""
+
+#. translators: %s: deduction reason.
+#: Integrations/RefundService.php:308
+#, php-format
+msgid "The amount was reduced. Reason: %s"
+msgstr ""
+
+#. translators: %s: payment method name.
+#: Integrations/RefundService.php:343
+#, php-format
+msgid "Automatically through %s"
+msgstr ""
+
+#. translators: %s: last digits of the bank account.
+#: Integrations/RefundService.php:348
+#, php-format
+msgid "Manual bank transfer to account ...%s"
+msgstr ""
+
+#: Integrations/RefundService.php:351
+msgid "Manual bank transfer"
+msgstr ""
+
+#: Integrations/RefundService.php:404
+msgid "Request or order not found."
+msgstr ""
+
+#. translators: 1: current status, 2: target status.
+#: Integrations/RequestWorkflow.php:59
+#, php-format
+msgid "A request cannot move from \"%1$s\" to \"%2$s\"."
+msgstr ""
+
+#: Integrations/RequestWorkflow.php:68
+msgid "A rejection needs a reason for the customer."
+msgstr ""
+
+#: Integrations/RequestWorkflow.php:84
+msgid "Only requests closed without a refund, rejected or cancelled can be reopened."
+msgstr ""
+
+#. translators: 1: request number (link), 2: new status.
+#: Integrations/RequestWorkflow.php:225
+#, php-format
+msgid "Withdrawal request %1$s: %2$s"
+msgstr ""
+
+#. translators: Statutory withdrawal statement. Keep every {placeholder} unchanged.
+#: Integrations/WithdrawalService.php:376
+msgid "I, {full_name}, hereby give notice that I withdraw from the contract of sale of the following goods: {items}, order no. {order_number} of {order_date}. Contact email: {email}. Date and time of the statement: {submitted_at}."
+msgstr ""
+
+#: Integrations/WithdrawalService.php:384
+msgid "[filled in when you confirm]"
+msgstr ""
+
+#. translators: %s: request number.
+#: Integrations/WithdrawalService.php:522
+#, php-format
+msgid "The customer cancelled the order before shipment: %s. Do not ship the order; cancel it and refund the payment."
+msgstr ""
+
+#. translators: %s: request number.
+#: Integrations/WithdrawalService.php:527
+#, php-format
+msgid "Withdrawal statement received: %s"
+msgstr ""
+
+#. translators: %s: request number. Used as the PDF file name.
+#: Pdf/ConfirmationPdf.php:102
+#, php-format
+msgid "confirmation-%s.pdf"
+msgstr ""
+
+#. translators: %s: refund due date.
+#: Pdf/ConfirmationPdf.php:118
+#: templates/form/success.php:36
+#, php-format
+msgid "We have not shipped the order yet. We will cancel it and refund the payment by %s."
+msgstr ""
+
+#. translators: %s: return address.
+#: Pdf/ConfirmationPdf.php:120
+#: templates/form/success.php:50
+#, php-format
+msgid "If the parcel has already left, refuse to accept it or send it back to: %s."
+msgstr ""
+
+#. translators: %s: return address.
+#: Pdf/ConfirmationPdf.php:126
+#: templates/form/success.php:59
+#, php-format
+msgid "Send the products back within 14 days to: %s."
+msgstr ""
+
+#. translators: %s: request number.
+#: Pdf/ConfirmationPdf.php:128
+#: templates/form/success.php:66
+#, php-format
+msgid "Write the request number %s on the parcel."
+msgstr ""
+
+#. translators: %s: refund due date.
+#: Pdf/ConfirmationPdf.php:130
+#, php-format
+msgid "We will refund the payment by %s. We may withhold the refund until we receive the products or proof that they were sent."
+msgstr ""
+
+#: Privacy/PersonalData.php:65
+#: Privacy/PersonalData.php:80
+msgid "Withdrawal requests"
+msgstr ""
+
+#: Privacy/PersonalData.php:132
+#: templates/emails/plain/request.php:26
+#: templates/emails/request.php:30
+#: templates/form/success.php:18
+#: templates/pdf/confirmation.php:43
+#: templates/status/details.php:25
+#: templates/status/lookup.php:22
+msgid "Request number"
+msgstr ""
+
+#: Privacy/PersonalData.php:135
+#: templates/form/summary.php:47
+msgid "Full name"
+msgstr ""
+
+#: Privacy/PersonalData.php:136
+#: templates/status/lookup.php:26
+msgid "Email address"
+msgstr ""
+
+#: Privacy/PersonalData.php:137
+msgid "Submitted"
+msgstr ""
+
+#: Privacy/PersonalData.php:139
+msgid "Reason for return"
+msgstr ""
+
+#: Privacy/PersonalData.php:140
+#: templates/emails/plain/request.php:44
+#: templates/emails/request.php:60
+#: templates/form/summary.php:74
+#: templates/pdf/confirmation.php:85
+msgid "Statement text"
+msgstr ""
+
+#: Privacy/PersonalData.php:141
+#: templates/status/details.php:82
+msgid "Tracking number"
+msgstr ""
+
+#: Privacy/PersonalData.php:143
+msgid "Bank account for the refund"
+msgstr ""
+
+#: Privacy/PersonalData.php:144
+msgid "Messages from the shop"
+msgstr ""
+
+#: Privacy/PersonalData.php:145
+msgid "Email address of the order"
+msgstr ""
+
+#. translators: %d: number of files.
+#: Privacy/PersonalData.php:147
+#, php-format
+msgid "%d file stored with the request; ask the shop for a copy."
+msgid_plural "%d files stored with the request; ask the shop for a copy."
+msgstr[0] ""
+msgstr[1] ""
+
+#: Privacy/PersonalData.php:148
+msgid "IP address"
+msgstr ""
+
+#: Privacy/PersonalData.php:148
+msgid "Stored only as a salted hash, which cannot be turned back into the address."
+msgstr ""
+
+#: Privacy/PersonalData.php:149
+msgid "Language"
+msgstr ""
+
+#: Privacy/PersonalData.php:164
+msgid "Withdrawal requests (PrimePlaced - Withdrawal Button)"
+msgstr ""
+
+#. translators: %s: request number.
+#: Privacy/PersonalData.php:197
+#, php-format
+msgid "Request %s is still being handled; its data is kept until it is closed."
+msgstr ""
+
+#: Privacy/PersonalData.php:216
+msgid "Withdrawal requests were anonymized; numbers, dates, amounts and statement hashes were kept as proof."
+msgstr ""
+
+#: Privacy/PersonalData.php:241
+msgid "When you withdraw from a contract, we store your name, email address, order number, the products you return, the optional reason, the text of your statement with the date and time it was made, a hash of your IP address, the tracking number you add and, when the payment method cannot refund automatically (cash on delivery, bank transfer), the bank account number for the refund (encrypted). We use this data to handle the withdrawal and the refund, and keep it as long as the related order. On an erasure request we anonymize closed requests and keep only the request number, dates, amounts and a hash of the statement as proof; requests still being handled are anonymized after they are closed. The data stays on our server and is not sent to third parties."
+msgstr ""
+
+#: templates/account/returns.php:15
+msgid "You have no withdrawal requests."
+msgstr ""
+
+#: templates/account/returns.php:27
+msgid "Actions"
+msgstr ""
+
+#: templates/account/returns.php:42
+msgid "View"
+msgstr ""
+
+#: templates/emails/plain/refund-reminder.php:13
+#: templates/emails/refund-reminder.php:15
+msgid "The law requires refunding the payment within 14 days of receiving the statement. These requests need attention:"
+msgstr ""
+
+#. translators: %s: refund deadline date.
+#: templates/emails/plain/refund-reminder.php:16
+#: templates/emails/refund-reminder.php:23
+#, php-format
+msgid "refund due %s"
+msgstr ""
+
+#. translators: %s: refund deadline date.
+#: templates/emails/plain/refund-reminder.php:16
+#: templates/emails/refund-reminder.php:26
+msgid "(overdue)"
+msgstr ""
+
+#: templates/emails/plain/request.php:27
+#: templates/emails/request.php:31
+#: templates/pdf/confirmation.php:44
+msgid "Date and time of the statement"
+msgstr ""
+
+#: templates/emails/plain/request.php:37
+#: templates/emails/request.php:52
+msgid "Refund method"
+msgstr ""
+
+#: templates/emails/plain/request.php:40
+#: templates/emails/request.php:55
+msgid "Refunded amount"
+msgstr ""
+
+#: templates/emails/plain/request.php:47
+#: templates/emails/request.php:65
+msgid "Check the request status"
+msgstr ""
+
+#: templates/emails/plain/request.php:50
+#: templates/emails/request.php:69
+msgid "Open the request"
+msgstr ""
+
+#. translators: %d: number of days to withdraw.
+#: templates/form/lookup.php:20
+#, php-format
+msgid "You have %d days to withdraw from the contract without giving a reason. Fill in the form and you will get a confirmation right away."
+msgstr ""
+
+#: templates/form/lookup.php:27
+msgid "Your orders you can withdraw from"
+msgstr ""
+
+#. translators: 1: order number, 2: order date.
+#: templates/form/lookup.php:34
+#, php-format
+msgid "Order #%1$s of %2$s"
+msgstr ""
+
+#: templates/form/lookup.php:40
+msgid "Order placed without logging in? Enter its number and email below."
+msgstr ""
+
+#: templates/form/lookup.php:46
+msgid "Order number"
+msgstr ""
+
+#: templates/form/lookup.php:50
+msgid "You will find it in the order confirmation email."
+msgstr ""
+
+#: templates/form/lookup.php:53
+msgid "Email address used for the order"
+msgstr ""
+
+#: templates/form/lookup.php:58
+#: templates/form/products.php:121
+msgid "Next"
+msgstr ""
+
+#: templates/form/message.php:15
+msgid "Check another order"
+msgstr ""
+
+#: templates/form/products.php:28
+msgid "Which products do you want to return?"
+msgstr ""
+
+#: templates/form/products.php:28
+msgid "Which products do you want to cancel?"
+msgstr ""
+
+#. translators: %s: order number.
+#: templates/form/products.php:35
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#. translators: 1: quantity to return, 2: quantity available.
+#: templates/form/products.php:56
+#, php-format
+msgid "%1$d of %2$d"
+msgstr ""
+
+#. translators: %s: statutory exception.
+#: templates/form/products.php:65
+#, php-format
+msgid "This product cannot be returned: %s."
+msgstr ""
+
+#. translators: %s: statutory exception.
+#: templates/form/products.php:65
+msgid "statutory exception"
+msgstr ""
+
+#: templates/form/products.php:69
+msgid "Already returned"
+msgstr ""
+
+#. translators: %s: amount.
+#: templates/form/products.php:80
+#, php-format
+msgid "Estimated refund for the selected quantities: %s. Step 3 shows the exact amount."
+msgstr ""
+
+#: templates/form/products.php:85
+msgid "Bank account number for the refund"
+msgstr ""
+
+#: templates/form/products.php:87
+msgid "We will refund this order by bank transfer, so we need your account number."
+msgstr ""
+
+#. translators: %s: payment method name.
+#: templates/form/products.php:93
+#, php-format
+msgid "We will refund the money to the account you paid from (%s)."
+msgstr ""
+
+#: templates/form/products.php:99
+msgid "I bought as a consumer or as a sole trader for whom the purchase is not professional (consumer rights, Art. 38a)."
+msgstr ""
+
+#: templates/form/products.php:105
+#: templates/form/products.php:116
+msgid "Reason for return (optional)"
+msgstr ""
+
+#: templates/form/products.php:107
+msgid "I prefer not to say"
+msgstr ""
+
+#: templates/form/products.php:116
+msgid "Comment (optional)"
+msgstr ""
+
+#: templates/form/products.php:120
+#: templates/form/summary.php:83
+msgid "Back"
+msgstr ""
+
+#: templates/form/steps.php:15
+msgid "Confirmation"
+msgstr ""
+
+#: templates/form/steps.php:18
+msgid "Form steps"
+msgstr ""
+
+#: templates/form/success.php:17
+msgid "Done. Your statement has reached us."
+msgstr ""
+
+#. translators: %s: date and time of the statement.
+#: templates/form/success.php:27
+#, php-format
+msgid "Submitted on: %s"
+msgstr ""
+
+#: templates/form/success.php:30
+#: templates/pdf/confirmation.php:89
+msgid "What next"
+msgstr ""
+
+#. translators: 1: amount, 2: refund method.
+#: templates/form/success.php:43
+#, php-format
+msgid "Estimated refund: %1$s, %2$s."
+msgstr ""
+
+#. translators: 1: date, 2: refund method.
+#: templates/form/success.php:72
+#, php-format
+msgid "We will refund the payment by %1$s, %2$s. We may withhold the refund until we receive the products or proof that they were sent."
+msgstr ""
+
+#. translators: %s: amount.
+#: templates/form/success.php:76
+#, php-format
+msgid "Estimated refund: %s."
+msgstr ""
+
+#. translators: %s: link to the status page.
+#: templates/form/success.php:83
+#, php-format
+msgid "After you send the parcel, add the tracking number on the %s: we can refund sooner."
+msgstr ""
+
+#. translators: %s: link to the status page.
+#: templates/form/success.php:83
+msgid "request status page"
+msgstr ""
+
+#: templates/form/success.php:96
+msgid "We have sent the confirmation with a PDF to your email address."
+msgstr ""
+
+#: templates/form/success.php:98
+msgid "Check request status"
+msgstr ""
+
+#: templates/form/success.php:99
+msgid "Download the confirmation (PDF)"
+msgstr ""
+
+#: templates/form/summary.php:36
+msgid "Check and confirm"
+msgstr ""
+
+#: templates/form/summary.php:45
+msgid "Your details"
+msgstr ""
+
+#: templates/form/summary.php:51
+msgid "Email for the confirmation"
+msgstr ""
+
+#: templates/form/summary.php:53
+msgid "We send the confirmation and the PDF here. The order is still identified by the email used when ordering."
+msgstr ""
+
+#: templates/form/summary.php:68
+msgid "Estimated refund amount:"
+msgstr ""
+
+#: templates/form/summary.php:82
+msgid "Confirm withdrawal"
+msgstr ""
+
+#: templates/pdf/confirmation.php:41
+msgid "Confirmation of receipt of the statement of withdrawal from the contract"
+msgstr ""
+
+#: templates/pdf/confirmation.php:51
+msgid "Seller"
+msgstr ""
+
+#: templates/pdf/confirmation.php:57
+msgid "Tax ID"
+msgstr ""
+
+#: templates/pdf/confirmation.php:62
+msgid "Consumer"
+msgstr ""
+
+#: templates/pdf/confirmation.php:69
+msgid "Order and products"
+msgstr ""
+
+#. translators: 1: order number, 2: order date.
+#: templates/pdf/confirmation.php:73
+#, php-format
+msgid "Order no. %1$s of %2$s"
+msgstr ""
+
+#: templates/pdf/confirmation.php:98
+msgid "SHA-256 of the statement text"
+msgstr ""
+
+#: templates/pdf/confirmation.php:99
+msgid "Document generated"
+msgstr ""
+
+#: templates/status/details.php:28
+msgid "Status:"
+msgstr ""
+
+#: templates/status/details.php:31
+msgid "Timeline"
+msgstr ""
+
+#: templates/status/details.php:50
+msgid "Download confirmation (PDF)"
+msgstr ""
+
+#: templates/status/details.php:62
+msgid "Have you sent the parcel?"
+msgstr ""
+
+#: templates/status/details.php:70
+msgid "Carrier"
+msgstr ""
+
+#: templates/status/details.php:78
+msgid "Other carrier (when you chose \"Other\")"
+msgstr ""
+
+#: templates/status/details.php:86
+msgid "Proof of shipment (JPG, PNG or PDF, up to 5 MB, optional)"
+msgstr ""
+
+#: templates/status/details.php:89
+msgid "Save shipping details"
+msgstr ""
+
+#: templates/status/details.php:94
+msgid "Withdraw the request"
+msgstr ""
+
+#: templates/status/details.php:99
+msgid "I want to withdraw this request. The contract will stay in force."
+msgstr ""
+
+#: templates/status/details.php:101
+msgid "Withdraw request"
+msgstr ""
+
+#: templates/status/lookup.php:14
+msgid "Enter the request number from your confirmation and the email address you used."
+msgstr ""
+
+#: templates/status/lookup.php:29
+msgid "Check status"
+msgstr ""
+
+#: Blocks/block.json
+msgctxt "block title"
+msgid "Withdrawal button"
+msgstr ""
+
+#: Blocks/block.json
+msgctxt "block description"
+msgid "Link to the withdrawal from contract form."
+msgstr ""
+
+#: Blocks/block.json
+msgctxt "block keyword"
+msgid "withdrawal"
+msgstr ""
+
+#: Blocks/block.json
+msgctxt "block keyword"
+msgid "return"
+msgstr ""
+
+#: Blocks/block.json
+msgctxt "block keyword"
+msgid "odstąpienie"
+msgstr ""

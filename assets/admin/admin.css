@@ -1,0 +1,90 @@
+/* stylelint-disable selector-class-pattern -- BEM class names. */
+
+/* PrimePlaced brand banner: the only non-WooCommerce element on our screens. */
+.ppwb-banner {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	margin: 20px 20px 0 0;
+	padding: 16px 20px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-top: 3px solid #d63649;
+	border-radius: 4px;
+}
+
+.ppwb-banner__logo {
+	flex: 0 0 auto;
+	border-radius: 8px;
+}
+
+.ppwb-banner__text {
+	flex: 1 1 auto;
+}
+
+.ppwb-banner__title {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.ppwb-banner__subtitle {
+	margin: 2px 0 0;
+	color: #646970;
+}
+
+.ppwb-banner__plan {
+	padding: 6px 14px;
+	background: #d63649;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+/* WooCommerce settings tabs sit inside .wrap, so the banner needs no right margin there. */
+.woocommerce .ppwb-banner {
+	margin: 0 0 16px;
+}
+
+/* Requests list: column widths in the spirit of the WooCommerce orders list. */
+.wp-list-table.ppwb-requests .column-number {
+	width: 26%;
+}
+
+.wp-list-table.ppwb-requests .column-status {
+	width: 16%;
+}
+
+.ppwb-requests .ppwb-email {
+	display: block;
+	color: #646970;
+}
+
+.ppwb-requests .ppwb-flag {
+	display: inline-block;
+	margin-top: 4px;
+	padding: 0 6px;
+	border-radius: 3px;
+	background: #f0f6fc;
+	color: #0a4b78;
+	font-size: 12px;
+}
+
+.ppwb-requests .ppwb-due.is-soon {
+	color: #996800;
+	font-weight: 600;
+}
+
+.ppwb-requests .ppwb-due.is-overdue {
+	color: #b32d2e;
+	font-weight: 600;
+}
+
+.ppwb-warning {
+	color: #b32d2e;
+	font-weight: 600;
+}

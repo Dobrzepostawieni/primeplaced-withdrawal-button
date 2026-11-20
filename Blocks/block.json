@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "primeplaced-withdrawal-button/button",
+	"title": "Withdrawal button",
+	"category": "widgets",
+	"icon": "undo",
+	"description": "Link to the withdrawal from contract form.",
+	"keywords": [ "withdrawal", "return", "odstąpienie" ],
+	"textdomain": "primeplaced-withdrawal-button",
+	"supports": { "html": false, "align": true }
+}

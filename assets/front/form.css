@@ -1,0 +1,93 @@
+/* stylelint-disable selector-class-pattern -- BEM class names. */
+.ppwb-footer{text-align:center;padding:1rem 0;font-size:.95em}
+
+.ppwb-footer__link{text-decoration:underline}
+
+.ppwb-form{max-width:42rem}
+
+.ppwb-steps{display:flex;gap:1rem;list-style:none;margin:1.5rem 0;padding:0;flex-wrap:wrap}
+
+.ppwb-steps__item{display:flex;align-items:center;gap:.5rem}
+
+.ppwb-steps__item.is-current{font-weight:600}
+
+.ppwb-steps__number{display:inline-flex;align-items:center;justify-content:center;width:1.75rem;height:1.75rem;border-radius:50%;border:2px solid currentcolor;font-size:.85em}
+
+.ppwb-steps__item.is-current .ppwb-steps__number{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+
+.ppwb-field{display:flex;flex-direction:column;gap:.35rem;margin:0 0 1rem}
+
+/* display:flex above would override the hidden attribute. */
+.ppwb-form [hidden]{display:none !important}
+
+.ppwb-field input,.ppwb-field textarea{min-height:44px;padding:.5rem .75rem;font:inherit}
+
+.ppwb-field input[type="file"]{color:inherit}
+
+.ppwb-field__hint{font-size:.875em}
+
+.ppwb-field--check label{display:flex;align-items:flex-start;gap:.5rem}
+
+.ppwb-field--check input[type="checkbox"]{flex:none;width:1em;height:1em;min-height:0;margin:.25em 0 0;padding:0}
+
+.ppwb-notice{padding:.75rem 1rem;margin:0 0 1rem;border-left:4px solid currentcolor}
+
+.ppwb-notice--error{border-color:#b32d2e;background:#fcf0f1;color:#8a2424}
+
+.ppwb-notice--info{border-color:#2271b1;background:#f0f6fc;color:#1d2327}
+
+.ppwb-items,.ppwb-summary-items{list-style:none;margin:0 0 1rem;padding:0}
+
+.ppwb-item{display:grid;grid-template-columns:48px 1fr auto auto;gap:1rem;align-items:center;padding:.75rem 0;border-bottom:1px solid rgba(0,0,0,.1)}
+
+.ppwb-item.is-disabled{opacity:.6}
+
+.ppwb-item__qty{min-height:44px;font:inherit}
+
+.ppwb-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.5rem}
+
+.ppwb-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.5rem 1.25rem;border:1px solid currentcolor;background:transparent;color:inherit;font:inherit;text-decoration:none;cursor:pointer;border-radius:4px}
+
+.ppwb-button--primary{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+
+.ppwb-button:focus-visible{outline:3px solid #1d4ed8;outline-offset:2px}
+
+.ppwb-block{margin:0 0 1.5rem}
+
+.ppwb-block h4,.ppwb-success h4{font-size:1.15em;font-weight:700;margin:0 0 .5rem}
+
+.ppwb-actions--split{flex-direction:row-reverse;justify-content:space-between}
+
+.ppwb-item__name small{display:block;font-size:.85em;opacity:.8}
+
+.ppwb-item__thumb img{width:48px;height:48px;object-fit:cover;border-radius:4px}
+
+.ppwb-estimate{margin:0 0 1rem}
+
+.ppwb-statement{margin:0;padding:1rem;border-left:4px solid #1d4ed8;background:rgba(29,78,216,.06);font-style:normal}
+
+.ppwb-form__back{margin-top:.75rem}
+
+.ppwb-success__label{margin-bottom:0}
+
+.ppwb-success__number{font-size:1.75em;font-weight:700;letter-spacing:.02em;margin-top:.25rem}
+
+.ppwb-copy{margin:0;min-height:32px;padding:.25rem .75rem;font-size:.875em}
+
+.ppwb-success__row{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;margin:0 0 1rem}
+
+.ppwb-success__row .ppwb-success__number{margin:0}
+
+.ppwb-button[aria-disabled="true"]{opacity:.6;cursor:progress}
+
+.ppwb-timeline{margin:0 0 1rem 1.25rem;padding:0}
+
+.ppwb-timeline li{margin:0 0 .5rem}
+
+.ppwb-item__hint{grid-column:1/-1;font-size:.875em}
+
+.ppwb-my-orders{list-style:none;margin:0 0 1rem;padding:0;display:flex;flex-direction:column;gap:.5rem}
+
+.ppwb-field select,.ppwb-field input[type="text"],.ppwb-field input[type="email"]{width:100%;max-width:100%;min-height:44px;padding:.5rem .75rem;font:inherit;box-sizing:border-box}
+
+.ppwb-field input[type="file"]{padding:.5rem 0;min-height:auto}

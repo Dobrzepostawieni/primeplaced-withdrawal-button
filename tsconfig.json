@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"target": "ES2019",
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"jsx": "react-jsx",
+		"strict": true,
+		"noImplicitAny": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"noEmit": true,
+		"types": [
+			"node"
+		],
+		"lib": [
+			"DOM",
+			"ES2019"
+		]
+	},
+	"include": [
+		"assets/src/**/*"
+	],
+	"exclude": [
+		"**/*.test.ts",
+		"**/*.test.tsx"
+	]
+}

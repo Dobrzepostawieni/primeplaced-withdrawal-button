@@ -136,9 +136,9 @@ Your data stays by default, because return requests are legal records. To remove
 
 == Development ==
 
-The complete, human-readable source of the generated JavaScript in `assets/build/` is available on GitHub: https://github.com/Dobrzepostawieni/primeplaced-withdrawal-button
+The complete, human-readable source of the generated JavaScript in `assets/build/` is available on GitHub: [https://github.com/Dobrzepostawieni/primeplaced-withdrawal-button](https://github.com/Dobrzepostawieni/primeplaced-withdrawal-button)
 
-`assets/src/front/form.ts` is the source of `assets/build/ppwb-form.js`. To rebuild `assets/build/`, clone the repository and run `npm ci` and then `npm run build` with Node.js 20 or newer. All other JavaScript, CSS and PHP files in the plugin are shipped unminified.
+The file `assets/build/ppwb-form.js` is built from `assets/src/front/form.ts`. To rebuild `assets/build/`, clone the repository and run `npm ci` and then `npm run build` with Node.js 20 or newer. All other JavaScript, CSS and PHP files in the plugin are shipped unminified.
 
 == External services ==
 

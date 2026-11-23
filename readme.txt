@@ -1,6 +1,6 @@
 === PrimePlaced - Withdrawal Button & Refunds for WooCommerce ===
 Contributors: dobrzepostawieni
-Tags: woocommerce, withdrawal button, returns, refund, right of withdrawal
+Tags: withdrawal button, widerrufsbutton, returns, refund, right of withdrawal
 Requires at least: 6.4
 Requires PHP: 8.1
 Tested up to: 7.1
@@ -17,6 +17,8 @@ PrimePlaced - Withdrawal Button & Refunds adds a withdrawal button and a complet
 EU Directive 2023/2673 adds an online withdrawal function to consumer law: a button labelled "withdraw from contract here" that stays available for the whole withdrawal period, an online withdrawal statement the customer submits with a "confirm withdrawal" button, and an acknowledgement of receipt on a durable medium. EU member states were to apply these rules from 19 June 2026 through their national laws, so the exact date and details depend on your country. This plugin gives WooCommerce that function (known as "Widerrufsbutton" in Germany and "przycisk odstąpienia od umowy" in Poland) together with the returns and refund workflow behind it.
 
 Everything runs on your own server. The free plugin works without any external service, account or license.
+
+Want to see it first? Click "Live Preview" on this page: a demo shop opens in your browser with a completed order that you can withdraw from, and the return request then waits for you in WooCommerce > Returns.
 
 = Withdrawal button and form for customers =
 
